@@ -7,7 +7,7 @@ async function getUsers(url, apiKey) {
         }
     });
 
-    return await response.json();
+    return response.json();
   }
   
   // Don't touch below this line
